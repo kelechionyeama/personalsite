@@ -1,5 +1,7 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'Satoshi', sans-serif;
     box-sizing: border-box;
 }
 
@@ -7,14 +9,17 @@ body {
     padding: 20px;
 }
 h1 {
-    font-weight: 900;
+    font-weight: 800;
 }
 
 p {
     color: grey;
+    font-size: 20px;
+    line-height: 35px;
 }
 
 li {
     color: grey;
     line-height: 35px;
+    font-size: 20px
 }
