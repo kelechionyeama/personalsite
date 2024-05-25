@@ -8,6 +8,7 @@
 body {
     padding: 20px;
 }
+
 h1 {
     font-weight: 800;
 }
@@ -22,4 +23,10 @@ li {
     color: grey;
     line-height: 35px;
     font-size: 20px
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        padding: 70px;
+    }
 }
